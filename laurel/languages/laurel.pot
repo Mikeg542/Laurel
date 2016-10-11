@@ -1,0 +1,999 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-laurel\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-06-03 14:02:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Michael Greenwood <mgweb1@mail.com>\n"
+"Language-Team: <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:37
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:39
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:41
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:39
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:41
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:43
+msgid "Archives"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:75
+msgid "Comment"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-archive.php:21 content-single.php:20 content.php:22
+msgid "Pages:"
+msgstr ""
+
+#: content-archive.php:52 content-page.php:18 content-single.php:60 content.php:52 content-search.php:53 page.php:56 single.php:69
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-archive.php:33 content-archive.php:42 content-single.php:29 content-single.php:32 content-search.php:31 content-search.php:40 content.php:33 content.php:42
+msgid ", "
+msgstr ""
+
+#: content-single.php:37
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:39
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:45
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-archive.php:20 content.php:20
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-archive.php:37 content.php:37 content-search.php:34
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content-archive.php:45 content.php:45 content-search.php:43
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content-search.php:50
+msgid "Leave a comment"
+msgstr ""
+
+#: content-search.php:50
+msgid "1 Comment"
+msgstr ""
+
+#: content-search.php:50
+msgid "% Comments"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Top Bar Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid "Main Site Sidebar"
+msgstr 
+
+#: functions.php:102
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:104
+msgid "Sidebar that displays on shop pages"
+msgstr ""
+
+#: functions.php:111
+msgid "Header Widget"
+msgstr ""
+
+#: functions.php:113
+msgid "Section in the top right of the header when using header style 4"
+msgstr ""
+
+#: functions.php:120
+msgid "Home Page 1"
+msgstr ""
+
+#: functions.php:122
+msgid "Widget Areas below the navigation and/or slideshow on the homepage"
+msgstr ""
+
+#: functions.php:129
+msgid "Home Page 2"
+msgstr ""
+
+#: functions.php:131
+msgid "Widget Areas below the navigation and/or slideshow on the homepage"
+msgstr ""
+
+#: functions.php:138
+msgid "Home Page 3"
+msgstr ""
+
+#: functions.php:140
+msgid "Widget Areas below the navigation and/or slideshow on the homepage"
+msgstr ""
+
+#: functions.php:147
+msgid "Footer Area 1"
+msgstr ""
+
+#: functions.php:149
+msgid "Widget Areas between the footer navigation and main content"
+msgstr ""
+
+#: functions.php:156
+msgid "Footer Area 2"
+msgstr ""
+
+#: functions.php:158
+msgid "Widget Areas between the footer navigation and main content"
+msgstr ""
+
+#: functions.php:165
+msgid "Footer Area 3"
+msgstr ""
+
+#: functions.php:167
+msgid "Widget Areas between the footer navigation and main content"
+msgstr ""
+
+#: functions.php:174
+msgid "Footer Area 4"
+msgstr ""
+
+#: functions.php:176
+msgid "Widget Areas between the footer navigation and main content"
+msgstr ""
+
+#: functions.php:183
+msgid "Footer Text Widget"
+msgstr ""
+
+#: functions.php:185
+msgid "Widget Areas at the bottom right of the page"
+msgstr ""
+
+#: functions.php:266
+msgid "Home"
+msgstr ""
+
+#: functions.php:278
+msgid "Blog"
+msgstr ""
+
+#: functions.php:299 functions.php:304 functions.php:309
+msgid "Archive for "
+msgstr ""
+
+#: functions.php:314
+msgid "Author Archive"
+msgstr ""
+
+#: functions.php:317
+msgid "Blog Archives"
+msgstr ""
+
+#: functions.php:320
+msgid "Search Results"
+msgstr ""
+
+#: header.php:36
+msgid "Skip to content"
+msgstr ""
+
+#: home.php:138
+msgid "0 Comments"
+msgstr "
+
+#: home.php:138
+msgid "1 Comment"
+msgstr "
+
+#: home.php:138
+msgid "% Comments"
+msgstr "
+
+#: inc/extras.php:63
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: options.php:73
+msgid "General"
+msgstr ""
+
+#: options.php:77
+msgid "Background Pattern"
+msgstr ""
+
+#: options.php:78
+msgid "Images for Background - This will overwrite a background image"
+msgstr ""
+
+#: options.php:108
+msgid "Page Layout"
+msgstr ""
+
+#: options.php:109
+msgid "Set the width of your site"
+msgstr ""
+
+#: options.php:115
+msgid "Full-Width"
+msgstr ""
+
+#: options.php:116
+msgid "Boxed"
+msgstr ""
+
+#: options.php:120
+msgid "Color Scheme"
+msgstr ""
+
+#: options.php:121
+msgid "Set the preset elements of the theme to be light or dark"
+msgstr ""
+
+#: options.php:127
+msgid "Light"
+msgstr ""
+
+#: options.php:128
+msgid "Dark"
+msgstr ""
+
+#: options.php:138
+msgid "Body Background Color"
+msgstr ""
+
+#: options.php:139
+msgid "Change the background color of the body in boxed width."
+msgstr ""
+
+#: options.php:145
+msgid "Internal Page Background Color"
+msgstr ""
+
+#: options.php:146
+msgid "Change the background color of the internal pages in full width."
+msgstr ""
+
+#: options.php:152
+msgid "Header Style"
+msgstr ""
+
+#: options.php:153
+msgid "Layout for the header area of the website"
+msgstr ""
+
+#: options.php:166
+msgid "Favicon"
+msgstr ""
+
+#: options.php:167
+msgid "Set the favicon for your site."
+msgstr ""
+
+#: options.php:166
+msgid "Homepage Widget Background"
+msgstr ""
+
+#: options.php:167
+msgid "Change the background color or set an image of the homepage widget area"
+msgstr ""
+
+#: options.php:179
+msgid "Show Search Box?"
+msgstr ""
+
+#: options.php:180
+msgid "Show Site Search Field"
+msgstr ""
+
+#: options.php:185
+msgid "Show Breadcrumbs?"
+msgstr ""
+
+#: options.php:186
+msgid "Show Site Breadcrumbs"
+msgstr ""
+
+#: options.php:191
+msgid "Show Top Bar?"
+msgstr ""
+
+#: options.php:192
+msgid "Show Link Bar along Top of Site"
+msgstr ""
+
+#: options.php:197
+msgid "Show Page Titles?"
+msgstr ""
+
+#: options.php:198
+msgid "Show Interior Page Titles"
+msgstr ""
+
+#: options.php:203
+msgid "To Top Link Color"
+msgstr ""
+
+#: options.php:204
+msgid "Change the color of the to top link."
+msgstr ""
+
+#: options.php:210
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:211
+msgid "Put any custom CSS Styles here."
+msgstr ""
+
+#: options.php:216
+msgid "Slider"
+msgstr ""
+
+#: options.php:220
+msgid "Show Slider?"
+msgstr ""
+
+#: options.php:221
+msgid "Show Home Page Slideshow"
+msgstr ""
+
+#: options.php:227
+msgid "Animation Type"
+msgstr ""
+
+#: options.php:228
+msgid "Set the transition effect of your Slider"
+msgstr ""
+
+#: options.php:251
+msgid "Animation Speed"
+msgstr ""
+
+#: options.php:252
+msgid "Animation Speed in ms"
+msgstr ""
+
+#: options.php:258
+msgid "Pause Time"
+msgstr ""
+
+#: options.php:259
+msgid "How long each slide shows in ms"
+msgstr ""
+
+#: options.php:265
+msgid "Show Slider Caption?"
+msgstr ""
+
+#: options.php:270
+msgid "Show Caption Overlay?"
+msgstr ""
+
+#: options.php:275
+msgid "Caption Left Margin"
+msgstr ""
+
+#: options.php:276
+msgid "How far the caption is from the left side of the slideshow in px or %"
+msgstr ""
+
+#: options.php:282
+msgid "Caption Bottom Margin"
+msgstr ""
+
+#: options.php:283
+msgid "How far the caption is from the bottom of the slideshow in px or %"
+msgstr ""
+
+#: options.php:289
+msgid "Caption Width"
+msgstr ""
+
+#: options.php:290
+msgid "How wide the slideshow caption is in px or %"
+msgstr ""
+
+#: options.php:296
+msgid "Caption Text Style"
+msgstr ""
+
+#: options.php:305
+msgid "Show Next/Prev Navigation?"
+msgstr ""
+
+#: options.php:306
+msgid "Show/Hide Next/Prev arrows on the slideshow"
+msgstr ""
+
+#: options.php:311 options.php:321 options.php:338
+msgid "True"
+msgstr ""
+
+#: options.php:312 options.php:322 options.php:339
+msgid "False"
+msgstr ""
+
+#: options.php:315
+msgid "Show Control Tab Navigation?"
+msgstr ""
+
+#: options.php:316
+msgid "Show/Hide pagination buttons"
+msgstr ""
+
+#: options.php:325
+msgid "Bullet Color"
+msgstr ""
+
+#: options.php:326
+msgid "Change the color of the active bullets."
+msgstr ""
+
+#: options.php:332
+msgid "Show Control Thumbnails?"
+msgstr ""
+
+#: options.php:333
+msgid "Show/Hide thumbnails under slider"
+msgstr ""
+
+#: options.php:343
+msgid "Header & Logo"
+msgstr ""
+
+#: options.php:347
+msgid "Site Logo"
+msgstr ""
+
+#: options.php:348
+msgid "Set the logo for your site."
+msgstr ""
+
+#: options.php:353
+msgid "Header Image/Color"
+msgstr ""
+
+#: options.php:354
+msgid "Change the header color or set an image."
+msgstr ""
+
+#: options.php:360
+msgid "Main Navigation Background"
+msgstr ""
+
+#: options.php:361
+msgid "Change the color or background of the main navigation."
+msgstr ""
+
+#: options.php:366
+msgid "Primary Menu Position"
+msgstr ""
+
+#: options.php:367
+msgid "Set the location of the primary menu in the header"
+msgstr ""
+
+#: options.php:373
+msgid "Right"
+msgstr ""
+
+#: options.php:374
+msgid "Left"
+msgstr ""
+
+#: options.php:377
+msgid "Dropdown background color"
+msgstr ""
+
+#: options.php:378
+msgid "Change the color of dropdown boxes."
+msgstr ""
+
+#: options.php:384
+msgid "Dropdown hover color"
+msgstr ""
+
+#: options.php:385
+msgid "Change the color of the dropdown boxes on hover."
+msgstr ""
+
+#: options.php:391
+msgid "Link Hover Indicator Color"
+msgstr ""
+
+#: options.php:392
+msgid "Change the color of the line while hovering on links. Selecting no color will make it disappear"
+msgstr ""
+
+#: options.php:398
+msgid "Top Bar Image/Color"
+msgstr ""
+
+#: options.php:399
+msgid "Change the top bar color or set an image."
+msgstr ""
+
+#: options.php:405
+msgid "Typography"
+msgstr ""
+
+#: options.php:409
+msgid "Body Text Style"
+msgstr ""
+
+#: options.php:418
+msgid "Navigation Link Style"
+msgstr ""
+
+#: options.php:427
+msgid "Top Bar Link Style"
+msgstr ""
+
+#: options.php:436
+msgid "Mobile Menu Text Style"
+msgstr ""
+
+#: options.php:445
+msgid "Link Color"
+msgstr ""
+
+#: options.php:446
+msgid "Change the color of links on the site."
+msgstr ""
+
+#: options.php:452
+msgid "Link Hover Color"
+msgstr ""
+
+#: options.php:453
+msgid "Change the color when hovering on links."
+msgstr ""
+
+#: options.php:459
+msgid "H1 Styles"
+msgstr ""
+
+#: options.php:468
+msgid "H2 Styles"
+msgstr ""
+
+#: options.php:477
+msgid "H3 Styles"
+msgstr ""
+
+#: options.php:486
+msgid "H4 Styles"
+msgstr ""
+
+#: options.php:495
+msgid "H5 Styles"
+msgstr ""
+
+#: options.php:504
+msgid "H6 Styles"
+msgstr ""
+
+#: options.php:513
+msgid "Social"
+msgstr ""
+
+#: options.php:517
+msgid "Facebook URL"
+msgstr ""
+
+#: options.php:522
+msgid "Twitter URL"
+msgstr ""
+
+#: options.php:527
+msgid "LinkedIn URL"
+msgstr ""
+
+#: options.php:532
+msgid "Google+ URL"
+msgstr ""
+
+#: options.php:537
+msgid "Pinterest URL"
+msgstr ""
+
+#: options.php:542
+msgid "Instagram URL"
+msgstr ""
+
+#: options.php:547
+msgid "RSS Feed URL"
+msgstr ""
+
+#: options.php:552
+msgid "Blog/Custom Posts"
+msgstr ""
+
+#: options.php:556
+msgid "Blog Title"
+msgstr ""
+
+#: options.php:562
+msgid "Blog Sidebars"
+msgstr ""
+
+#: options.php:563
+msgid "Sidebar Location for Blog/Custom Post Pages"
+msgstr ""
+
+#: options.php:573
+msgid "Use Post Excerpts?"
+msgstr ""
+
+#: options.php:574
+msgid "Use post excerpts for blog and category archives."
+msgstr ""
+
+#: options.php:579
+msgid "Show Post Meta?"
+msgstr ""
+
+#: options.php:580
+msgid "Check this box to show the author, date posted and number of comments on archive, posts and category pages."
+msgstr ""
+
+#: options.php:585
+msgid "Allow Post Comments?"
+msgstr ""
+
+#: options.php:586
+msgid "Check this box to enable commenting on all posts and custom post types."
+msgstr ""
+
+#: options.php:591
+msgid "Blog Layout"
+msgstr ""
+
+#: options.php:592
+msgid "Set the layout of your Blog"
+msgstr ""
+
+#: options.php:598 options.php:610 options.php:627
+msgid "List"
+msgstr ""
+
+#: options.php:599
+msgid "Picture Grid"
+msgstr ""
+
+#: options.php:600
+msgid "Masonry"
+msgstr ""
+
+#: options.php:603
+msgid "Testimonial Layout"
+msgstr ""
+
+#: options.php:604
+msgid "Set the layout of your Testimonials"
+msgstr ""
+
+#: options.php:611
+msgid "Boxed"
+msgstr ""
+
+#: options.php:614
+msgid "Testimonials per Page"
+msgstr ""
+
+#: options.php:620
+msgid "FAQ Layout"
+msgstr ""
+
+#: options.php:621
+msgid "Set the layout of your FAQ Page"
+msgstr ""
+
+#: options.php:628
+msgid "Accordian"
+msgstr ""
+
+#: options.php:631
+msgid "Blog as Home Page?"
+msgstr ""
+
+#: options.php:632
+msgid "Check this box to enable the slideshow and homepage widgets to your blog page."
+msgstr ""
+
+#: options.php:637
+msgid "WooCommerce"
+msgstr ""
+
+#: options.php:641
+msgid "Product Columns"
+msgstr ""
+
+#: options.php:642
+msgid "Set the number of columns in the product list."
+msgstr ""
+
+#: options.php:653
+msgid "Products per Page"
+msgstr ""
+
+#: options.php:654
+msgid "Set the number of products to show per page."
+msgstr ""
+
+#: options.php:660
+msgid "Add to Cart Link Color"
+msgstr ""
+
+#: options.php:661
+msgid "Change the color of add to cart button link."
+msgstr ""
+
+#: options.php:667
+msgid "Add to Cart Hover Link Color"
+msgstr ""
+
+#: options.php:668
+msgid "Change the color of add to cart button link on hover."
+msgstr ""
+
+#: options.php:674
+msgid "Add to Cart Color"
+msgstr ""
+
+#: options.php:675
+msgid "Change the color of add to cart button on products list."
+msgstr ""
+
+#: options.php:681
+msgid "Add to Cart Hover Color"
+msgstr ""
+
+#: options.php:682
+msgid "Change the color of add to cart button when hovering on products list."
+msgstr ""
+
+#: options.php:688
+msgid "Show as Catalogue?"
+msgstr ""
+
+#: options.php:689
+msgid "Remove ability to purchase products."
+msgstr ""
+
+#: options.php:694
+msgid "Show Reviews on Product List?"
+msgstr ""
+
+#: options.php:700
+msgid "Footer"
+msgstr ""
+
+#: options.php:704
+msgid "Footer Text Style"
+msgstr ""
+
+#: options.php:713
+msgid "Footer Widget Text"
+msgstr ""
+
+#: options.php:722
+msgid "Footer Widget Area Background"
+msgstr ""
+
+#: options.php:723 options.php:730
+msgid "Change the header color or set an image."
+msgstr ""
+
+#: options.php:729
+msgid "Footer Nav and Text Area Background"
+msgstr ""
+
+#: options.php:736
+msgid "Show Footer Menu?"
+msgstr ""
+
+#: options.php:741
+msgid "Footer Menu Link Color"
+msgstr ""
+
+#: options.php:742
+msgid "Change the color of the footer navigation."
+msgstr ""
+
+#: search.php:33
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-part/header-searchbar.php:7 template-part/header-searchbar.php:8
+msgid "Search for:"
+msgstr ""
+
+#: template-part/header-searchbar.php:8
+msgid "Search..."
+msgstr ""
+
+#: page-templates/page-faqs.php:100
+msgid "Edit"
+msgstr ""
+
+#: page-templates/page-fullwidthslider.php:41
+msgid "Edit"
+msgstr ""
+
+#: page-templates/page-fullwidth.php:30
+msgid "Edit"
+msgstr ""
+
+#: page-templates/page-home.php:74
+msgid "Edit"
+msgstr ""
+
+#: page-templates/page-testimonials.php:40
+msgid "Edit"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Laurel"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://mgwebwpthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Laurel Theme is a feature rich, option heavy theme built for beginners and developers alike."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Greenwood"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mgwebwpthemes.com/"
+msgstr ""

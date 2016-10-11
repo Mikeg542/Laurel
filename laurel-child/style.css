@@ -1,0 +1,264 @@
+/*
+ Theme Name:     Laurel Child Theme
+ Theme URI:      http://mgwebwpthemes.com/
+ Description:    Laurel Child Theme
+ Author:         MGWeb Wordpress Themes
+ Author URI:     http://mgwebwpthemes.com/
+ Template:       laurel
+ Version:        1.0.0
+ Tags:           Light, Dark
+*/
+ 
+@import url("../laurel/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+.header1 .main-navigation .sf-menu > li > a {
+    height: 45px;
+    line-height: 45px;
+}
+.header1.site-header {
+	box-shadow: none;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	transition: all 0.4s ease;
+}
+header img {
+	display: none;
+}
+.home-widget-area {
+	margin-top: 45px;
+	margin-bottom: 160px;
+}
+.readmore {
+	font-size: 16px;
+	border: 1px solid white;
+	padding: 12px 25px;
+	display: inline-block;
+	margin-top:25px;
+	color: white;
+	transition: all 0.4s ease;
+}
+.readmore:hover, .readmore:active, .readmore:focus {
+	background: rgba(255,255,255,0.6);
+	color: black;
+	text-decoration: none;
+}
+.home figure img {
+	border-radius: 50%
+}
+.devicons {
+    font-size: 65px;
+    color: white;
+	display:block;
+	text-align: center;
+}
+h5 {
+	text-align:center;
+	position: relative;
+}
+h5:before {
+	content: " ";
+	position: absolute;
+	width: 40%;
+	height: 2px;
+	top: 16px;
+	left: 0px;
+	background: #b5b5b5;
+}
+h5:after {
+	content: " ";
+	position: absolute;
+	width: 40%;
+	height: 2px;
+	top: 16px;
+	right: 0px;
+	background: #b5b5b5;
+}
+.just {
+	text-align: justify;
+    text-justify: inter-word;
+}
+h3.ubig {
+	position: relative;
+	text-align:center;
+	margin-bottom:40px;
+}
+h3.ubig:after {
+	content: " ";
+	position: absolute;
+	width: 10%;
+	height: 4px;
+	background: white;
+   	margin-top:60px;
+   	left: 45%;
+    	right: 45%;
+}
+.wpcf7 input[type='text'], .wpcf7 input[type='email'], .wpcf7 textarea {
+    width: 100%;
+    color: white;
+    border-radius: 0;
+    margin: 0 0 8px;
+    background: #313131;
+    border: 0;
+    border-bottom: 3px solid #a06306;
+}
+.wpcf7 textarea {
+	height:  120px;
+}
+.wpcf7 input[type='submit'] {
+	display: block;
+	margin: 10px auto;
+	font-size: 20px;
+	border: 0;
+	border-radius: 0;
+	background: #a06306;
+	color: white;
+	text-shadow: none;
+	box-shadow: none;
+	border: 2px solid transparent;
+	transition: all 0.8s ease;
+}
+.wpcf7 input[type='submit']:hover {
+	border: 2px solid #a06306;
+	background: transparent;
+	color: #a06306;
+	text-shadow: none;
+	box-shadow: none;
+}
+.port-item {
+width: 25%;
+float:left;
+position: relative;
+}
+.port-item img {
+width: 100%;
+transition: all 0.8s ease;
+}
+#black-studio-tinymce-6 {
+margin: 0;
+}
+a .port-item:hover > img {
+-webkit-transform: rotateY(130deg); 
+transform: rotateY(180deg);
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.port-item:hover .port-logo img {
+opacity: 1;
+}
+.port-logo img {	
+	position: absolute;
+    max-width: 80%;
+    left: 10%;
+    opacity: 0;
+    top: 15%;
+}
+footer ul.footermenu li a {
+	border: 0;
+}
+header#masthead {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	background: rgba(17,42,64,0.85);
+}
+
+.outside {
+	width: 50%;
+	background: rgba(255,255,255,0.55);
+	display:block;
+	margin: 20px auto;
+	padding: 12px;
+}
+.myname {
+	font-family: Oswald;
+	font-size: 48px;
+	color: white;
+	padding: 18px 90px;
+	text-align:center;
+	background: black;
+}
+.wp-image-103 {
+	border-radius: 50%;
+}
+@media (max-width: 980px) {
+	.outside {
+		width: 80%;
+	}
+	.home-widget-area {
+	    margin-bottom: 60px;
+	}
+	h5:before {
+		width: 35%;
+	}
+	h5:after {
+		width: 35%;
+	}
+	.port-item .port-logo img {
+		opacity: 1;
+	}
+	a .port-item > img {
+	    opacity: 0.6;
+	}
+}
+@media (max-width: 767px) {
+	.outside {
+		width: 100%;
+	}
+	.myname {
+		font-size: 40px;
+	}
+	.home-widget h2 {
+		font-size:42px;
+	}
+	.home-widget h3 {
+		font-size: 35px;
+	}
+	.wp-image-103 {
+		max-width: 250px;
+		display:block;
+		margin: 10px auto;
+	}
+	.port-item {
+		width: 50%;
+	}
+	h5:before {
+		width: 30%;
+	}
+	h5:after {
+		width: 30%;
+	}
+	footer ul.footermenu li a {
+    	text-align: center;
+    	display: block;
+	}
+	footer ul.footermenu {
+		margin: 20px 0;
+	}
+	footer .footer-text {
+		text-align: center;
+	}
+	.mobilemenu > li a {
+		text-align: center;
+	}
+}
+@media (max-width: 480px) {
+	h5:before {
+		width: 20%;
+	}
+	h5:after {
+		width: 20%;
+	}
+	.home-widget-area {
+    	margin-bottom: 112px;
+	}
+}
+@media (max-width: 446px) {
+	.home-widget-area {
+    	margin-bottom: 80px;
+	}
+	.myname {
+    	padding: 18px 12px;
+	}
+}
